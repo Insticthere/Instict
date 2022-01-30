@@ -1,0 +1,462 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    transition: 0.5s;
+}
+
+.header {
+    background-color: #ffffff; /* #242424*/
+    text-align: center;
+    padding-bottom: 40px;
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.mtitle {
+    font-family: 'Allura', cursive;
+    font-size: 685%;
+    margin-top: 0px;
+    padding-top: 110px;
+    margin-bottom: 0;
+    line-height: 0.75;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 0;
+    font-family: 'Recursive', sans-serif;
+    background-color: #242424;
+    color: #ffffff ;
+  }
+
+.bback {
+    background-color:  #ffffff;
+    color:  rgb(0, 0, 0);
+    transition: background-color 0.5s ease-in-out;
+}
+
+.tp {
+    border-top: dotted 6px;
+    width: 4%;
+    background-color: transparent;
+    margin: 75px auto;
+}
+
+.mh {
+    border: dotted 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    background-color: transparent;
+  }
+
+.bh {
+    width: 80%;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.contact-me{
+    text-align: center;
+}
+
+.sbox:hover .stext {
+    font-size: 275%;
+    transition: all .2s ease;
+}
+
+.sbox:hover {
+    cursor: pointer;
+}
+
+.bottom-container {
+    padding: 40px 0 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.sbox {
+    background-color: #333;
+    width: 65%;
+    margin: 50px auto;
+}
+
+.bbox {
+    background-color: #ddd;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.simage {
+    vertical-align: middle;
+    height: 155px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 15px;
+}
+
+.stext {
+    font-size: 250%;
+    vertical-align:middle;
+}
+
+.section1 {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.socials{
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.twitch {
+    margin-right: 15px;
+}
+
+.reddit {margin-right: 15px;}
+
+.discord{margin-right: 15px;}
+
+.aboutme {
+    padding-right: 20px;
+    box-sizing: border-box;
+    /* flex: 1 0 auto; */
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    flex: 1 0 auto;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+    text-align: center;
+
+    
+}
+
+.contrastt {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    color: #fff;
+    filter: contrast(160%);
+}
+
+.aboutmy {
+    display: flex;
+    justify-content:space-between;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.intro {
+    border-left: 4px dotted white;
+    padding-left: 10px;
+    width: 40vw;
+}
+
+
+
+.emailicon {
+    height:18px ;
+    padding-right: 10px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    z-index: 0;
+}
+
+.contact-button-text {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1em;
+
+}
+
+.contactb {
+    border: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: center;
+    width: 85px;
+    margin: auto;
+    padding: 10px 13px 9px;
+    flex: 0 0 auto;
+    color: #fff;
+}
+
+.contactb:hover {
+    border-color: #929292;
+    transition: all .2s ease;
+}
+
+.emailbox {
+    align-items:center;
+    margin-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+.place {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7.5px;
+}
+
+.pin {
+    width: 20px;
+    height: 20px;
+}
+
+/* .skillmy {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+    align-items: center;
+}
+
+.skilltable {
+    border-left: 4px dotted white;
+    padding-left: 20px;
+}
+
+.skilltitle {
+    margin-right: 20px;
+    box-sizing: border-box
+}
+
+.skill {
+    font-size: larger;
+}
+
+.skillmtext {
+    text-align: left;
+} */
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Allura', cursive;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+    z-index:1;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+    padding-bottom: 10px;
+}
+
+.navbarmain {
+    z-index: 1;
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          vertical-align: middle;
+          margin: 8px auto auto 16px ;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutmy{
+        display: initial;
+    }
+
+    .intro {
+        border-left: none;
+        padding-left: 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+    }
+
+    .aboutme {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .sbox {
+        margin: 35px auto;
+        width: 75%;
+        
+    }
+
+    .simage {
+        max-height: auto;
+    }
+
+    .section1 {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+    }
+
+    .socials{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .twitch {margin-right: auto;}
+    
+    .reddit {margin-right: auto;}
+    
+    .discord{margin-right: auto;}
+  }
+
+@media only screen and (max-width: 600px) {
+    .sbox {
+        margin: 25px auto;
+        width: 100%; 
+    }
+
+    .simage {
+        width: 25%;
+        height: auto;
+    }
+
+    .stext {
+        text-align: center;
+    }
+
+
+    .section1 {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        margin: auto;
+    }
+
+    .socials{
+        width: 100%;
+        justify-content: center;
+        margin: 0 0px 0;
+    }
+
+    .intro {
+        width: 90vw;
+    }
+  }
