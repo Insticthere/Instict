@@ -324,6 +324,9 @@ nav ul li a {
     z-index: 1;
 }
 
+.alshowing {
+    padding-right: 0px;
+}
 
 .reveal{
     position: relative;
@@ -357,6 +360,7 @@ nav ul li a {
 
     .showing {
           max-height: 34em;
+          padding-right: 0;
     }
 
     nav ul li {
@@ -369,6 +373,7 @@ nav ul li a {
     .menu-icon {
           display: block;
     }
+
 
 }
 
