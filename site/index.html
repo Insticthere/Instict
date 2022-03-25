@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/style.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="overlay"><h2 class="overtext">click to enter</h2></div>
+    <div id="particles"></div>
+    <audio id="my_audio" src="./resources/music/song.mp3" loop="loop" controls hidden></audio>
+    <div>
+        <div>
+            <div>
+                <h1 id="typing" class="text centre"></h1>
+            </div>
+
+            <div>
+            </div>
+            <section id='visi' class="visibility">
+                <ul class="icon-list">
+                    <li class="icon-item">
+                        <a href="https://github.com/Insticthere" class="icon-link"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href="https://discord.gg/sQkTFueMYv" class="icon-link"><i class="fab fa-discord"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href="https://www.reddit.com/user/I_nstict" class="icon-link"><i class="fab fa-reddit"></i></a>
+                    </li>
+                    <li class="icon-item">
+                        <a href="https://twitter.com/Insticthere" class="icon-link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+                </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./resources/js/particles.js"></script>
+    <script src="./resources/js/particle.js"></script>
+    <script>
+        var overlay = document.querySelector(".overlay");
+        const para = document.getElementById("visi");
+        
+        function click() {
+            para.classList.remove("visibility");
+            para.classList.add("fadein");
+            document.querySelector('icon-list')
+            overlay.remove();
+            var aud = document.getElementsByTagName("audio")[0];
+            aud.volume = 0.3;
+            aud.play();
+            new Typed("#typing", {
+                strings: ["","professional online arguer", "destroying people since 2018", "i dont create bugs i create features.", "Instict#0416"],
+                typeSpeed: 35,
+                backspeed: 25,
+                showCursor: false
+                
+            });
+            
+            console.log("click")};
+            overlay.addEventListener("click",click)
+    </script>
+</body>
+</html>
